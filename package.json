@@ -1,0 +1,22 @@
+{
+  "name": "school-management-app",
+  "version": "3.0.0",
+  "private": true,
+  "description": "Cross-platform PWA school management system with RBAC, admissions, academics, fees, reports, transcripts and online learning.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "check": "node --check server.js && node --check public/app.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "better-sqlite3": "^12.4.1",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^2.0.2"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
